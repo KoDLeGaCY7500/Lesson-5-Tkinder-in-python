@@ -1,0 +1,11 @@
+from tkinter import *
+window =Tk()
+window.title("Welcome to tkinder window")
+window.geometry("500x500")
+greeting=Label(text="hello user!",fg="purple",bg="white")
+greeting.pack()
+button=Button(text="click me",fg="red",bg="black")
+button.pack()
+entry=Entry(fg="green",bg="black",width=50)
+entry.pack()
+window.mainloop()
